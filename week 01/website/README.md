@@ -12,4 +12,4 @@ I did attempt having  a light/dark theme but as  it did not look right with the 
 
 
 ### Detailing useful external sources that helped you complete the assignment (e.g Youtube tutorials).
-I used the MDN resources that have ben mentioned in class.
+I used the MDN resources that have been mentioned in class.
