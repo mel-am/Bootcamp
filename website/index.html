@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js" defer></script>
+    <script src="https://kit.fontawesome.com/42fb9bb29a.js" crossorigin="anonymous" defer></script>
+    <title>Website</title>
+</head>
+<body>
+    <header id="header">
+        <h1 class="post-meta-heading">the gallery</h1>
+        <nav id="nav-bar">
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+  <main class="top">
+    <section class="feature-1">  
+        <video id="video" autoplay loop muted>
+            <source src="./video/barcelona.mp4" type="video/mp4">
+        </video>
+        <div class="post-meta">
+          <h2 class="post-meta-tagline">the wandering collection</h2>
+          <a class="post-meta-more" href="#">view</a>
+        </div>
+      </section>
+
+      <section class="feature-2" id="about">
+        <div class="post-meta">
+            <h2 class="post-meta-tagline">Recent Shows</h2>
+            <h1 class="post-meta-heading">the city collection</h1>
+            <a class="post-meta-more" href="#">about</a>
+        </div>    
+      </section>
+
+      <section  class="feature-3" id="gallery">
+        <div class="post-meta">
+            <h2 class="post-meta-tagline">Recent Shows</h2>
+            <h1 class="post-meta-heading">london</h1>
+            <a class="post-meta-more" href="">gallery</a>
+            <p>Click here to hear sounds of the city</p>
+            <audio controls>
+                <source src="./audio/city-traffic-outdoor-6414.mp3" type="audio/mp3">
+            </audio>       
+        </div>  
+      </section>
+  </main>
+  <footer id="footer"><footer>MAM © 2023</footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+* {
+    box-sizing: border-box;
+  }
+h1{
+    display: inline-block;
+    color: whitesmoke;
+    margin: 2px;
+    size: 16px;
+}
+
+header{
+    position: fixed;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    gap:5rem;
+    z-index: 1;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 2.3rem;
+    text-transform: uppercase;
+    align-items: center;
+}
+  nav > a {
+    text-decoration: none;
+    color: whitesmoke;   
+  }
+  .nav > a:hover {
+    background-color:blanchedalmond;
+    color: #555;
+    transition: 0.7s;
+  }
+
+  section{
+    position: relative;
+  }
+
+  section.feature-1 {
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+  }
+    video { 
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 5;
+}
+  
+  section.text{
+    position: fixed
+  }
+
+  section.feature-2 {
+    background-image: url('./img/new-york-street.jpg');
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+  }
+  section.feature-3 {
+    background-image: url('./img/st-pauls-with-a-bus.jpg');
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+  .post-meta{
+    position:absolute;
+    bottom: 200px;
+    left: 3rem;
+    color: blanchedalmond;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+  }
+  .post-meta-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  .post-meta-tagline {
+    text-transform: uppercase;
+    font-weight: 100;
+    opacity: 1.5;
+    font-size: 1.3rem;
+  }
+  .post-meta-more {
+    margin-top: 0.5rem;
+    display: inline-block;
+    max-width: 200px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1rem;
+    opacity: 1.5;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  footer{
+    background-color: black;
+    text-align: center;
+    color: #555;
+    padding: 20px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+  .post-meta-more:hover {
+    background-color:blanchedalmond;
+    color: #555;
+    transition: 0.7s;
+}
+
